@@ -1,0 +1,120 @@
+
+/*  apply all */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+
+/* Style in display */
+body #display{ 
+    position: relative;
+    left: 8px;
+    top: 10px;
+    background-color: rgba(0, 162, 255, 0.941);
+    margin-bottom: 40px;
+    height: 90px;
+    width: 285px;
+    height: 80px;
+    border: 0px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: right;
+    outline: 0px;
+    color: aliceblue;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+
+/* style main container */
+body .container1{
+    box-shadow:0px 0px 50px 5px black ;
+    margin: 40px;
+    background-color:rgba(0, 0, 0, 0.792);
+    height: 420px;
+    width: 360px;
+    display: grid;
+    place-items: center;
+    border: 0px;
+    border-radius: 25px;
+
+}
+
+
+/* apply button space-td */
+td{
+    padding: 2px;
+}
+
+
+/* style calculator button */
+table .btn{
+    height: 40px;
+    width: 70px;
+    border-radius: 35px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 10px;
+    color: black;
+    background-color:aliceblue;
+    cursor: pointer;
+}
+
+
+/* Calculator button hover action */
+table .btn:hover{
+    background-color: blueviolet;
+    font-size: 20px;
+    color: aliceblue;
+    scale: 1;
+}
+
+
+/* style calculator clear button */
+table .sp1{
+    height: 40px;
+    width: 70px;
+    border-radius: 35px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 10px;
+    color: black;
+    background-color:rgb(0, 132, 255);
+    cursor: pointer;
+}
+
+
+/* clear button hover action */
+table .sp1:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+/* Style equal button */
+table .sp2{
+    height: 40px;
+    width: 70px;
+    border-radius: 35px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 10px;
+    color: black;
+    background-color:rgb(248, 48, 98);
+    cursor: pointer;
+}
+
+
+/* equal button hover action */
+table .sp2:hover{
+    background-color: red;
+    color: aliceblue;
+}

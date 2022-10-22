@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+    <!-- Insert StyleSheet -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    
+    <!-- main Body container -->
+
+    <div class="container1">
+
+        <!-- Second Body container -->
+
+        <div class="container2">
+
+        <!-- Main display -->
+
+        <div class="display">
+
+            <div id="displayframe">
+
+                <!-- Display input-text -->
+
+                <input type="text"  id="display" readonly placeholder="0">
+
+            </div>
+
+        </div>
+
+        <!-- Calculator Main table -->
+
+        <table>
+
+            <tr>
+
+                <!-- display clear button -->
+                <td> <button class="sp1" onclick="cls()"> C </button> </td>
+
+                <!-- Delete last number or operator button -->
+                <td> <button class="btn" onclick="del()"> del  </button> </td>
+
+                <td> <button class="btn" onclick="insert('/')"> / </button> </td>
+                <td> <button class="btn" onclick="insert('+')"> + </button> </td>
+
+            </tr>
+            <tr>
+                <td> <button class="btn" onclick="insert(7)"> 7 </button> </td>
+                <td> <button class="btn" onclick="insert(8)"> 8 </button> </td>
+                <td> <button class="btn" onclick="insert(9)"> 9 </button> </td>
+                <td> <button class="btn" onclick="insert('-')"> - </button> </td>
+
+            </tr>
+            <tr>
+                <td> <button class="btn" onclick="insert(4)"> 4 </button> </td>
+                <td> <button class="btn" onclick="insert(5)"> 5 </button> </td>
+                <td> <button class="btn" onclick="insert(6)"> 6 </button> </td>
+                <td> <button class="btn" onclick="insert('*')"> * </button> </td>
+
+            </tr>
+            <tr>
+                <td> <button class="btn" onclick="insert(1)"> 1 </button> </td>
+                <td> <button class="btn" onclick="insert(2)"> 2 </button> </td>
+                <td> <button class="btn" onclick="insert(3)"> 3 </button> </td>
+                <td> <button class="btn" onclick="insert('.')"> . </button> </td>
+
+            </tr>
+            <tr>
+                <td> <button class="btn"  onclick="insert('(')"> ( </button> </td>
+                <td> <button class="btn"  onclick="insert(0)"> 0 </button> </td>
+                <td> <button class="btn"  onclick="insert(')')"> ) </button> </td>
+
+                <!-- equal button -->
+                <td> <button class="sp2"  onclick="exe()">  = </button> </td>
+    
+            </tr>
+
+        </table>
+
+    </div>
+
+    </div>
+
+    <!-- insert Script File -->
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
